@@ -52,6 +52,7 @@ Before start coding, we will explain the project structure we have provided you:
 ```
 starter-code/
 ├── lib
+<<<<<<< HEAD
 │   ├── jasmine-2.5.2/
 │   |   └── ...
 │   ├── .gitkeep
@@ -60,6 +61,7 @@ starter-code/
 │   └── VikingSpec.js
 ├── src
 │   └── viking.js
+=======
 └─ SpecRunner.html
 ```
 
