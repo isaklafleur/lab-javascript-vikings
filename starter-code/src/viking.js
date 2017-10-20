@@ -19,6 +19,7 @@ function Viking(name, health, strength) {
 }
 
 Viking.prototype = Object.create(Soldier.prototype);
+Viking.prototype.constructor = Viking;
 
 Viking.prototype.receiveDamage = function(damage) {
   this.health -= damage;
@@ -37,6 +38,7 @@ function Saxon(health, strength) {
 }
 
 Saxon.prototype = Object.create(Soldier.prototype);
+Saxon.prototype.constructor = Saxon;
 
 Saxon.prototype.receiveDamage = function(damage) {
   this.health -= damage;
